@@ -1,0 +1,63 @@
+.FRY {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    border-radius: 50px;
+    background: rgba(245, 245, 245, 0.90);
+    overflow: hidden;
+    border: 2px solid #3D752F;
+    left: 50%;
+    top: 55%;
+    overflow-y: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .GroupList{
+    position: absolute;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: PT Sans Caption;
+    font-size: 30px;
+    font-weight: 700;
+    left: 40%;
+    top: 6%;
+    text-align: center;
+    
+  }
+  
+  
+  .center-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    font-size: 16px;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

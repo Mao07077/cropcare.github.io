@@ -1,0 +1,70 @@
+.bw{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 0px;
+    border-bottom: 0px;
+    overflow: auto;
+    background-color: #DFF4CB;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .FfRr {
+    width: 70%;
+    height: 80%;
+    position: absolute;
+   border-radius: 50px;
+    background: #e7f5da;
+    border-bottom: 0px;
+    overflow: hidden;
+    left: 50%;
+    top: 55%;
+    border:  2px solid #3D752F;
+
+    transform: translate(-50%, -50%);
+  }
+  .conten{
+    width: 35%;
+    height: 70%;
+    position: absolute;
+   border-radius: 20px;
+    background: rgb(255, 255, 255);
+    border-bottom: 0px;
+    overflow: hidden;
+    left: 50%;
+    top: 50%;
+    border:  2px solid #3D752F;
+
+    transform: translate(-50%, -50%);
+  }
+
+  .log{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+   border-radius: 10px;
+    overflow: hidden;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+  }
+  .in{
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+  }
+  .outkn{
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+  }

@@ -1,0 +1,147 @@
+
+.contt {
+  display: flex;
+  background-color: #12372A;
+  padding: 1%;
+  position: relative;
+}
+
+.logooss {
+  max-width: 4%;
+  position: absolute;
+  left: 5%;
+  bottom: 15%;
+  transition: left 0.3s ease;
+}
+
+.notif {
+  max-width: 3.5%;
+  position: absolute;
+  left: 87%;
+  bottom: 18%;
+  resize: both;
+  overflow-y: auto;
+}
+.notification-container{
+  width: 30%;
+  height: 500px;
+  position: absolute;
+  left: 60%;
+  bottom: -665%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px  rgba(47, 48, 45, 0.596);
+    z-index: 9999; 
+}
+.home {
+  max-width: 3%;
+  position: absolute;
+  left: 93%;
+  bottom: 25%;
+}
+
+.icloo {
+  max-width: 90%;
+  position: absolute;
+  left: 2%;
+  top: 10%;
+  align-items: center;
+}
+
+.btonn {
+  gap: 30px;
+  display: flex;
+  top: 40%;
+  flex-direction: column;
+  position: absolute;
+  left: 2%;
+}
+
+.hamburger-button {
+  margin-right: 16px;
+  transition: margin-right 0.3s ease, left 0.3s ease;
+}
+
+.hamburger-button.open {
+  background-color: transparent;
+  left: 12%;
+}
+
+.responsive-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 532px;
+  background-color: #436850;
+  z-index: 1;
+}
+
+.menu-open .logooss {
+  left: 16%;
+}
+
+.menu-open .responsive-menu {
+  width: 12%;
+}
+
+.search-container {
+  margin-top: 10px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  left: 38%;
+  top: 20%;
+  position: absolute;
+}
+
+.eml {
+  font-weight: bold;
+  position: absolute;
+  top: 35%;
+}
+
+.setting {
+  width: 165%;
+  height: 30px;
+  
+}
+
+
+.contt.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.contt.fixed .logooss {
+  max-width: 8%;
+  bottom: 5%; 
+  left: 2%;
+  transition: max-width 0.3s ease, left 0.3s ease, bottom 0.3s ease; 
+}
+
+.profile-pic{
+border: 2px solid #189232;
+border-radius: 10%;
+width: 150px;
+height: 150px;
+object-fit: cover;
+margin-top: 15%;
+}
+.search-results{
+  padding: 10px;
+  width: 22.2%;
+  overflow-y: auto;
+background-color: white;
+border-radius: 5%;
+  font-size: 16px;
+  left: 38%;
+  top: 68%;
+    position: absolute; 
+    z-index: 1;
+}

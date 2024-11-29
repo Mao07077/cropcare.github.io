@@ -1,0 +1,25 @@
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#12372A;
+    padding: 28px;
+  }
+  
+  .logoos {
+    max-width: 4%;
+    position: absolute;
+    display: block;
+    left: 50%;
+    top:0%;
+    align-items: center;
+
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  

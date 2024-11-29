@@ -1,0 +1,126 @@
+.FR {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    border-radius: 50px;
+    background: rgba(245, 245, 245, 0.90);
+    overflow: hidden;
+    border: 2px solid #3D752F;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+  }
+  .CreateNewGroup{
+    position: absolute;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: PT Sans Caption;
+    font-size: 30px;
+    font-weight: 700;
+    left: 5%;
+    top: 6%;
+    
+  }
+  .textt{
+    width: 150px;
+    height: 20px;
+    margin-top: 2%;
+    margin-left: 7%;
+    text-align: center;
+    border-radius: 5%;
+  }
+  .frp{
+    width: 300px;
+    height: 380px;
+    display: grid;
+    position: absolute;
+    border-radius: 30px;
+    align-items: center;
+    outline:auto;
+    background: rgba(245, 245, 245, 0.90);
+    left: 75%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    overflow-y:auto
+  }
+  
+  .conte{
+    margin-top: 10%;
+  }
+  .inputt {
+    margin-top: 1%;
+    margin-left: 10%;
+  }
+  
+  .inputt input {
+    height: 30px;
+    width: 400px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .inputt input:focus::placeholder {
+    color: transparent;
+  }
+  
+  .inputt select {
+    height: 30px;
+    width: 400px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .bton{
+  gap: 30px;
+  display: flex;
+  margin: auto;
+  margin-left: 10%;
+  margin-top: 5%;
+
+}
+.Cancel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #cecece;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+}
+.Create{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #cecece;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+}
+.check {
+  display:inline-flex;
+  margin-left: 50%;
+}
+
+.sell {
+  display: flex;
+  cursor: pointer;
+}
+
+.agree {
+  font-size: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
